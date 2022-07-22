@@ -1,0 +1,207 @@
+body
+{
+    background-color: #F8F8FF !important;
+}
+/*TaskCard*/
+.input-box{
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 15px;
+  top:12px;
+  color:#1d1e1f;
+  box-shadow:3px;
+}
+
+.form-control{
+
+  height: 50px;
+  background-color:white;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 200px;
+  padding-right: 70px;
+}
+
+.form-control:focus{
+  background-color: white;
+  box-shadow: none;
+  border-color: white;
+}
+
+.fa-trash
+{
+  color: red;
+}
+.check
+{
+  margin-right:3px ;
+}
+
+.text
+{
+  color: #868686;
+
+}
+
+.color
+{
+  color: #b9b9c0;
+  margin-right:8px;
+}
+.myrow
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.col-countainers
+{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.imgstyle
+{
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.pin-card
+{
+  color: red;
+  background-color: white;
+ 
+}
+
+.mybtn
+{
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  
+}
+
+.round-btn
+  { 
+    font-size: 18px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #eee;
+    line-height:1rem;
+    margin-left: 4px;
+    border-radius: 50%;
+    text-align: center;
+
+  }
+/*TaskCard*/
+
+
+/*TaskRegister*/
+.cameraimg
+  {
+    width:200px;
+    border: 1px solid rgb(8, 240, 240);
+    margin-right: 100px;
+    cursor: pointer;
+  }
+  .upload
+  {
+    margin-top:10px;
+    margin-left:83px;
+  }
+/*TaskRegister*/
+
+/*TaskConfirm*/
+  .margin
+  {
+    margin-top: 5px;
+  }
+ 
+  .myimage
+  {
+    width: 100px;
+    height: 100px;
+  }
+  .icon-check
+  {
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(72, 253, 16);
+    color: #eee;
+    line-height:1rem;
+    margin-left: 4px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .close 
+  {
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #444;
+    color: #eee;
+    line-height:1rem;
+    margin-left: 4px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .profilepic
+  {
+    width:100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top:10px;
+  }
+
+  .tickpic
+  {
+    margin-top:90px;
+  }
+
+  /* validation style */
+.input-group
+{
+  margin-bottom: 22px;
+}
+/* error Validation  */
+.error-message {
+  color: #cc0033;
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.input-group .error-message {
+  display: none;
+}
+/* Error Styling */
+.error label {
+  color: #cc0033;
+}
+
+.error input[type=text],.error input[type=number] {
+  background-color: #fce4e4;
+  border: 1px solid #cc0033;
+  outline: none;
+}
+
+.error .error-message {
+  display: inline-block;
+  font-weight: bold;
+}
